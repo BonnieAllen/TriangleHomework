@@ -18,6 +18,9 @@ class Triangle
         return :scalene
     end
   end
+  def perimeter
+    @a + @b + @c
+  end
 end
 
 class TestMeme < Minitest::Test
